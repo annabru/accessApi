@@ -1,0 +1,6 @@
+﻿services:
+  accessapi:
+    image: accessapi
+    build:
+      context: .
+      dockerfile: AccessApi/Dockerfile
